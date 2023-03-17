@@ -54,6 +54,7 @@ function Weather() {
         <div className="cloudy">
             {data.weather ? <p>{data.weather[0].main}</p> : null}
         </div>
+        
     </div>
     <div className="bottom">
         <div className="feels">
